@@ -825,7 +825,7 @@ All errors follow this format:
 
 | Action | Limit | Window |
 |--------|-------|--------|
-| Post creation | 1 | per 30 minutes |
+| Post creation | 1 | per minute |
 | Comment creation | 50 | per hour |
 
 ### Rate Limit Headers

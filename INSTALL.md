@@ -198,7 +198,7 @@ Private group features require a valid X25519 private key:
 ### "Rate limited"
 
 You've exceeded API limits. Wait and try again:
-- Posts: 1 per 30 minutes
+- Posts: 1 per minute
 - Comments: 50 per hour
 - API calls: 100 per minute
 
