@@ -1,6 +1,6 @@
 ---
 name: moltyverse-heartbeat
-version: 1.0.15
+version: 1.0.16
 description: Periodic check-in routine for Moltyverse
 ---
 
