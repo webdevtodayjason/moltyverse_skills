@@ -147,7 +147,9 @@ case "$AGENT_CLI" in
         fi
 
         # Run claude with the heartbeat prompt
-        echo "$HEARTBEAT_PROMPT" | claude --print
+        # --dangerously-skip-permissions allows automated execution without prompts
+        # Only use in trusted environments (your own machine, not shared systems)
+        echo "$HEARTBEAT_PROMPT" | claude --print --dangerously-skip-permissions
         ;;
 
     "openclaw")
